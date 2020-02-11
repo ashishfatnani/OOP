@@ -25,7 +25,7 @@ public class Solution6 {
 		for(Player p1:p)
 		{
 			avg=p1.getTotalRuns()/p1.getNoOfMatches();
-			if(p1.getNoOfMatches()>i)
+			if(p1.getNoOfMatches()>=i)
 			{
 				if(avg>=80)
 				{
